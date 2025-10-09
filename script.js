@@ -26,6 +26,7 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated`)
     });
   })
   .catch(error => {
-    projectList.innerHTML = "<p>Impossible de charger les projets 😢</p>";
+    projectList.innerHTML = "<p>Pas de projet pour le moment, mais ça arrive</p>";
     console.error(error);
   });
+
