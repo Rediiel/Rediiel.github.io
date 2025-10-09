@@ -1,13 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Mathys Bauchet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mathys Bauchet | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Mathys Bauchet</h1>
-    <p>Étudiant en ingénierie aux Mines de Saint-Étienne.</p>
-    <p><a href="www.linkedin.com/in/mathys-bauchet-8888312a4">LinkedIn</a></p>
+  <header>
+    <div class="container">
+      <h1 class="logo">Mathys <span>Bauchet</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#experience">Expériences</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Étudiant ingénieur aux Mines de Saint-Étienne</h2>
+      <p>Passionné par l’intelligence artificielle et le développement informatique.  
+         J’aime allier technicité, créativité et impact concret dans des projets innovants.</p>
+      <a href="#projects" class="btn">Voir mes projets GitHub</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>À propos</h2>
+    <p>
+      Je suis actuellement étudiant à l’École des Mines de Saint-Étienne en filière
+      <strong>IA & Développement Logiciel</strong>.  
+      Mon parcours inclut un échange universitaire au Japon (Kumamoto University)
+      en cybersécurité et réseaux, ainsi qu’un <strong>Diplôme Universitaire de Japonais</strong>.
+    </p>
+    <p>
+      Je m'intéresse particulièrement à l’<strong>intelligence artificielle</strong>,
+      la <strong>computer vision</strong> et le <strong>développement web</strong>.  
+      J’aime explorer les synergies entre innovation technologique et applicabilité concrète.
+    </p>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Expériences</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Stagiaire - Chef de projet informatique</h3>
+        <p class="place">Direction des systèmes d’information – Colombes (92)</p>
+        <p class="date">02/2025 – 07/2025</p>
+        <ul>
+          <li>Mise en place d’un outil d’Asset Management (Matrix42)</li>
+          <li>Migration de version de l’intranet</li>
+          <li>Automatisation des opérations Active Directory</li>
+          <li>Étude d’intégration d’IA (CallBot, ChatBot, IA métier)</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Stagiaire - Assistant ingénieur en IA</h3>
+        <p class="place">Laboratoire ICube – Université de Strasbourg</p>
+        <p class="date">05/2024 – 08/2024</p>
+        <ul>
+          <li>Adaptation d’un réseau de neurones (MeshNet) pour la classification 3D</li>
+          <li>Utilisation de <strong>PyTorch</strong> et <strong>TensorFlow</strong></li>
+          <li>Rédaction d’articles scientifiques sur Overleaf</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Ouvrier agricole polyvalent</h3>
+        <p class="place">Gustave Muller – Herrlisheim (67)</p>
+        <p class="date">09/2024 – 12/2024</p>
+        <ul>
+          <li>Accueil des clients et gestion des commandes</li>
+          <li>Entretien du site et préparation des bons de commande</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Compétences</h2>
+    <div class="skills-grid">
+      <div>
+        <h3>Langages & Frameworks</h3>
+        <ul>
+          <li>Python (PyTorch, TensorFlow)</li>
+          <li>Java, C</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>SQL, PHP, Symfony</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Autonomie & prise d’initiative</li>
+          <li>Gestion de projet</li>
+          <li>Travail en équipe</li>
+          <li>Apprentissage rapide</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Langues</h3>
+        <ul>
+          <li>Français — Langue maternelle</li>
+          <li>Anglais — Niveau professionnel (C1)</li>
+          <li>Allemand — Intermédiaire (B2)</li>
+          <li>Japonais — Débutant</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projets GitHub</h2>
+    <div id="project-list" class="projects-grid"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <ul class="contact-info">
+      <li>📧 <a href="mailto:mathysbauchet1@gmail.com">mathysbauchet1@gmail.com</a></li>
+      <li>📱 +33 6 15 36 81 47</li>
+      <li>💻 <a href="https://github.com/mathysbauchet" target="_blank">github.com/mathysbauchet</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Mathys Bauchet — Portfolio personnel.</p>
+  </footer>
 </body>
 </html>
-
